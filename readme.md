@@ -68,3 +68,7 @@ GameOfLife (Node2D)          # Main script & infinite grid logic
 2. Import project files.
 
 3. Press **`F5`** to launch the project.
+
+OR
+
+Download the release from the tab on the right
