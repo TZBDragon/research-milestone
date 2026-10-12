@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cp0s5jyufbdqt"]
+
+[ext_resource type="Script" uid="uid://b83sxisio4vc5" path="res://Scripts/game_of_life+.gd" id="1_f0q4b"]
+
+[node name="GameOfLife+" type="Node2D" unique_id=1636458343]
+script = ExtResource("1_f0q4b")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1646485596]
+
+[node name="UILayer" type="CanvasLayer" parent="." unique_id=1473313347]
+
+[node name="InfoLabel" type="Label" parent="UILayer" unique_id=363575240]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="QuitButton" type="Button" parent="UILayer" unique_id=1579828703]
+offset_top = 1044.0
+offset_right = 98.0
+offset_bottom = 1080.0
+text = "Quit"
