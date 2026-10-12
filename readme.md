@@ -65,10 +65,6 @@ GameOfLife (Node2D)          # Main script & infinite grid logic
 
 1. Open **Godot 4**.
 
-2. Import or create a main scene containing a `Node2D` named `GameOfLife`.
+2. Import project files.
 
-3. Attach `game_of_life.gd` to the root node.
-
-4. Add a `Camera2D` and a `CanvasLayer` (with a `Label` named `InfoLabel` and a `Button` named `QuitButton`).
-
-5. Press **`F5`** to launch the project.
+3. Press **`F5`** to launch the project.
